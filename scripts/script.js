@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function(){
               "nb_sides": 5
             },
             "image": {
-              "src": "./imgs/owen.png",
+              "src": "./img/owen.png",
               "width": 200,
               "height": 200
             }

@@ -503,7 +503,7 @@ var pJS = function(tag_id, params){
         }
 
         var element = document.createElement('img');
-        element.src = './imgs/owen2.png';
+        element.src = './img/owen2.png';
         img_obj = element;
         if(img_obj){
           draw();
