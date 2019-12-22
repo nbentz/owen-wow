@@ -118,7 +118,7 @@ document.addEventListener("DOMContentLoaded", function(){
     
     let body = document.getElementById("body");
     body.addEventListener("click", playSound);
-    body.addEventListener( "touchstart" , playsound);
+    body.addEventListener( "touchstart" , playSound);
 
     document.body.onkeydown = function(e){
         if(e.keyCode === 13 || e.keyCode === 32){
