@@ -1,0 +1,53 @@
+/*--Setup--*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
+
+html, body{
+    margin:0;
+    padding:0;
+    height: 100%;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    color: #000;
+}
+
+body{
+    background-image: url('./img/galaxy.jpg');
+    background-size: cover;
+}
+
+
+#particles-js{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+}
+
+/*---Media Queries --*/
+@media (max-width:992px){
+   
+    body {
+        background-image: url('./img/galaxy.jpg');
+        background-size: cover;
+    }
+}
+
+@media (max-width:768px){
+    body {
+        background-image: url('./img/galaxy.jpg');
+        background-size: cover;
+    }
+}
+
+@media (max-width:576px){
+    body {
+        background-image: url('./img/galaxy.jpg');
+        background-size: cover;
+    }
+}
+
+@media (max-width:320px){
+    body {
+        background-image: url('./img/galaxy.jpg');
+        background-size: cover;
+    }
+}
